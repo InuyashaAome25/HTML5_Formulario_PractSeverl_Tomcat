@@ -1,0 +1,58 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Asignación 2.4</title>
+    <link rel="stylesheet" href="CSS/Plantilla.css">
+</head>
+<body>
+    <header>
+        Aplicar las etiquetas HTML en una página web para confeccionar un formulario Electrónico
+    </header>
+    <nav>
+
+    </nav>
+    <main>
+        <form action="JSP/Proceso.jsp">
+            <table BORDER="2" CELLPADDING="5">
+                <caption>OFERTAS</caption>
+                <thead>
+                <tr>
+                    <th>Imagen</th>
+                    <th>Datos</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><IMG src="IMG/Computadora.jpg" alt="Computadora" width="500px" height="300px"> </td>
+                    <td> <a href="HTML/Pagina2.html">Computadora de Escritorio 4.0HZ - 8 RAM</a> <br>
+                        <a href="HTML/Pagina2.html">Compra $1.200</a> </td>
+                </tr>
+                <tr>
+                    <td><IMG src="IMG/VideoCamara.jpeg" alt="Video Camara" WIDTH="250PX"></td>
+                    <td><a href="HTML/Pagina2.html">VideoCamara - Alta definición 4k-120 GB</a> <br>
+                        <a href="HTML/Pagina2.html">Compra: $2.500.99</a> </td>
+                </tr>
+                <tr>
+                    <td><IMG src="IMG/televisor.jpeg" alt="Televisor" WIDTH="300PX"></td>
+                    <td><a href="HTML/Pagina2.html">Televisor SAMSUNG - 50''- 4K</a> <br>
+                        <a href="HTML/Pagina2.html">Comprar: $509.95</a></td>
+                </tr>
+                <tr>
+                    <td><IMG src="IMG/Celular.png" alt="Celular" WIDTH="400PX"> </td>
+                    <td><a href="HTML/Pagina2.html">IPHONE 14 - 128GB -5G</a> <br>
+                        <a href="HTML/Pagina2.html">Compra: $1.069.00</a> </td>
+                </tr>
+                </tbody>
+            </table>
+        </form>
+    </main>
+    <footer>
+        Cesar Castillo 8-976-234
+        <br>
+        Michael Perez 8-1007-1782
+        <br>
+        Victor Rodriguez 9-761-2415
+    </footer>
+</body>
+</html>
